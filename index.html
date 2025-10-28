@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>WebShop</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-<ul>
-    <li class="iterm"> Thanh  sang</li>
-    <li class="iterm"> Thanh Son</li>
-</ul>
-<div class="box"> box</div>
+
+<div class="login-container">
+    <h2>Đăng nhập</h2>
+    <form>
+        <div class="input-group">
+            <label for="username">Tên đăng nhập</label>
+            <input type="text" id="username" placeholder="Nhập tên của bạn" required />
+        </div>
+
+        <div class="input-group">
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" placeholder="••••••••" required />
+        </div>
+
+        <button type="submit">Đăng nhập</button>
+
+        <p class="register-link">
+            Chưa có tài khoản? <a href="#">Đăng ký</a>
+        </p>
+    </form>
+</div>
+
 </body>
 </html>

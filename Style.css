@@ -1,13 +1,78 @@
-li{
-    color: aqua;
-}
-.box{
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #74ABE2, #5563DE);
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background: aquamarine;
-    width: 1rem;
-    height: 1rem;
+    align-items: center;
+    margin: 0;
+}
 
+.login-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #5563DE;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5563DE;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3c48b5;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #5563DE;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
 }
